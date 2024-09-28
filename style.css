@@ -78,7 +78,7 @@ button:hover {
     transform: scale(1.6); /* Grossissement de 10% */
 }
 
-.equal{
+.equal, .switch {
     width: 115px;
     border-radius: 40px;
     background-color: #1a1a1a;
@@ -86,3 +86,22 @@ button:hover {
                  5px 5px 12px rgba(0,0,0,.16);
                  
 }
+
+  .button {
+            display: flex;
+            padding: 10px 180px;
+            margin : 10px;
+            font-size: 30px;
+            color: #fff;
+            background-color: #007bff;
+            border-radius: 90px;
+            text-align: start;
+            cursor: pointer;
+            transition: transform 0.3s, box-shadow 0.3s;
+            
+        }
+    
+        .button:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+        }

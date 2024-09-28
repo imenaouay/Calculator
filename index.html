@@ -5,32 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Calculatrice</title>
     <link rel="stylesheet" href="style.css">
-    <style>
-
-        .button {
-            display: flex;
-            padding: 10px 180px;
-            margin : 10px;
-            font-size: 30px;
-            color: #fff;
-            background-color: #007bff;
-            border-radius: 90px;
-            text-align: start;
-            cursor: pointer;
-            transition: transform 0.3s, box-shadow 0.3s;
-            
-        }
-    
-        .button:hover {
-            transform: translateY(-3px);
-            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
-        }
-    </style>
+   
 </head>
 <body>
-    <button class="button"  onclick="redirectToPage()">Switch</button>
     <div class="container">
         <div class="calculator">
+            <button class="switch"  onclick="redirectToPage()">Switch </button>
             <input type="text" placeholder="0" id="output-screen">
             <button onclick="Clear()">CL</button>
             <button onclick="del()" > DEL</button>
